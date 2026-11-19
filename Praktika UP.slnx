@@ -1,6 +1,7 @@
 <Solution>
-  <Project Path="MyLibrary/MyLibrary.csproj" />
-  <Project Path="Praktika UP/Praktika UP.csproj" />
-  <Project Path="Задание 2/Задание 2.csproj" />
-  <Project Path="Задание 3/Задание 3.csproj" />
+  <Project Path="MyLibrary/MyLibrary.csproj" Id="e643d3db-1787-4b4a-ace1-b0babbb94c28" />
+  <Project Path="Praktika UP/Praktika UP.csproj" Id="dc306c34-445f-49a1-8f9d-7089f813c726" />
+  <Project Path="Задание 2/Задание 2.csproj" Id="dfe1666f-2cf5-4041-87e2-c0287cdc9dfe" />
+  <Project Path="Задание 3/Задание 3.csproj" Id="d69d7372-2345-4c9e-b824-d2acc5b39bef" />
+  <Project Path="Тема 4/Тема 4.csproj" Id="468f6359-736b-4f4e-bc9e-ede974d8f887" />
 </Solution>

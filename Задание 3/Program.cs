@@ -16,9 +16,9 @@ namespace Задание_3
             m.Hello();
             m.Bye();
 
-            Console.WriteLine(m.Add(3, 5));    // 8
-            Console.WriteLine(m.Half(10));     // 5
-            Console.WriteLine(m.Name());       // Иван
+            Console.WriteLine(m.Add(3, 5));   
+            Console.WriteLine(m.Half(10));     
+            Console.WriteLine(m.Name());       
         }
     }
 }
