@@ -10,27 +10,27 @@ namespace Тема_5
     {
         static void Main(string[] args)
         {
-            string s1 = "hello";
-            string s2 = "world";
-            string s3 = "hello";
+            string s1 = "cat";
+            string s2 = "dog";
+            string s3 = "cat";
 
             // Compare()
             int result = string.Compare(s1, s2);
-            Console.WriteLine($"Compare(s1, s2) = {result}"); 
+            Console.WriteLine($"Compare(s1, s2) = {result}"); //лексическое сравнение
 
             // Equals()
-            Console.WriteLine($"s1.Equals(s3) = {s1.Equals(s3)}"); 
+            Console.WriteLine($"s1.Equals(s3) = {s1.Equals(s3)}"); //проверка на равенство
             Console.WriteLine($"s1.Equals(s2) = {s1.Equals(s2)}"); 
 
             // CompareOrdinal()
             int ord = string.CompareOrdinal(s1, s2);
-            Console.WriteLine($"CompareOrdinal(s1, s2) = {ord}"); 
+            Console.WriteLine($"CompareOrdinal(s1, s2) = {ord}"); //побайтовое
 
             // IndexOf()
-            Console.WriteLine($"s1.IndexOf('l') = {s1.IndexOf('l')}"); 
+            Console.WriteLine($"s1.IndexOf('a') = {s1.IndexOf('a')}"); //поиск символа
 
             // Contains()
-            Console.WriteLine($"s2.Contains(\"or\") = {s2.Contains("or")}"); 
+            Console.WriteLine($"s2.Contains(\"og\") = {s2.Contains("og")}"); //содержит ли строку
 
             // Операторы == и !=
             Console.WriteLine($"s1 == s3: {s1 == s3}"); 
